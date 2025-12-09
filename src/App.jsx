@@ -2,10 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Heart, Stars, SparkleIcon, Music, Gift, Camera, Volume2, VolumeX, Sparkles, Moon, Sun } from 'lucide-react';
 import before from "./assets/before.mp3"
 import after from "./assets/after.mp3"
-import last from "./assets/bear.gif"
-import one from "./assets/1.jpg"
-import two from "./assets/2.jpg"
-import three from "./assets/3.jpg"
 
 const TypeWriter = ({ messages, speed = 50 }) => {
   const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
